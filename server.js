@@ -36,6 +36,6 @@ app.use(initRoute);
 // jsdoc -c ./jsDoc.conf.json -t ./node_modules/ink-docstrap/template -d public/documentation -R README.md server.js package.json -r config/ routes/ 
 //More http://docstrap.github.io/docstrap/themes/yeti/
 
-console.log("Broxel Intercom API Listening at " + apiUrl + ':' + port);
+console.log("API Listening at " + apiUrl + ':' + port);
 
 module.exports = app; // for testing
