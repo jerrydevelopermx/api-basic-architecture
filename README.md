@@ -2,7 +2,7 @@
 ![API version](https://img.shields.io/badge/version-1.0-brightgreen.svg)
 
 # Introduction
-Welcome to Broxel Intercom API v1.0.
+Welcome to Jerry's Basic API v1.0.
 
 #Getting Started
 1.	Installation process
