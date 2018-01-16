@@ -12,7 +12,7 @@ module.exports = {
   },
 
   development: {
-    API_URL: 'https://immense-brook-86474.herokuapp.com/',
+    API_URL: 'https://stark-caverns-33268.herokuapp.com',
     API_PORT: '1337'
   },
 
