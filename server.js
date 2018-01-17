@@ -15,7 +15,7 @@ const express = require('express');
 /** Path instance */
 const path = require('path');
 /** Node app port */
-const port = process.env.port || envConfigs[nodeEnv].API_PORT;
+const port = process.env.PORT || envConfigs[nodeEnv].API_PORT;
 /** Express Server */
 const app = require('./config/expressServer');
 /** Init route */
@@ -26,7 +26,8 @@ const initRoute = require('./routes/init');
 app.use(express.static(path.join(__dirname, 'public')));
 
 /** App listening port */
-app.listen(5000);
+console.log(port)
+app.listen(port);
 
 /************************************************
  * Express routes                               *
