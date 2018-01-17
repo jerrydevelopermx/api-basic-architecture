@@ -26,7 +26,7 @@ const initRoute = require('./routes/init');
 app.use(express.static(path.join(__dirname, 'public')));
 
 /** App listening port */
-app.listen(port);
+app.listen(5000);
 
 /************************************************
  * Express routes                               *
